@@ -1,0 +1,11 @@
+site_name: The Income Foundry
+site_description: Foundry Operating System
+site_url: http://localhost:8000
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+
+nav:
+  - Home: README.md

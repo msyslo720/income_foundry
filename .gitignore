@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# MkDocs
+site/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/settings.json
+
+# Excel temp files
+~$*.xlsx
+
+# Misc
+*.log
