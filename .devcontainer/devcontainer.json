@@ -1,0 +1,23 @@
+{
+    "name": "Income Foundry",
+
+    "image": "mcr.microsoft.com/devcontainers/python:3.12",
+
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {}
+    },
+
+    "postCreateCommand": "pip install -r requirements.txt",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "DavidAnson.vscode-markdownlint",
+                "yzhang.markdown-all-in-one",
+                "ms-python.python",
+                "GitHub.vscode-github-actions",
+                "bierner.markdown-mermaid"
+            ]
+        }
+    }
+}
