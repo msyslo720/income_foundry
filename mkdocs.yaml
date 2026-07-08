@@ -8,4 +8,26 @@ theme:
     scheme: slate
 
 nav:
-  - Home: README.md
+  - Home: index.md
+
+  - Part I - Foundation
+      - Mission: philosophy/Mission.md
+      - Vision: philosophy/Vision.md
+      - Foundry Principles: philosophy/FoundryPrinciples.md
+
+  - Part II - Governance:
+      - Investment Policy Statement: governance/InvestmentPolicyStatement.md
+      - Project Charter: governance/ProjectCharter.md
+
+  - Part III - Architecture:
+      - System Design Specification: architecture/SystemDesignSpecification.md
+      - KPI Framework: architecture/KPIFramework.md
+
+  - Part IV - Operations:
+      - SOP-000: operations/SOP-000.md
+      - SOP-001: operations/SOP-001.md
+
+  - Part V - Assets:
+      - Foundry 12: assets/Foundry12.md
+
+  - Roadmap: ROADMAP.md
